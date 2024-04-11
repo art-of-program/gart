@@ -1,0 +1,32 @@
+.control button p {
+  padding: 5px 20px;
+  margin: 2px 2px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Media screen for Menu */
+@media screen and (max-width:768px){
+  .inner-div .menu-container{
+    width: 100%;
+    padding:10px;
+    margin: 0;
+  }
+
+  .inner-div{
+    width: 100%;
+  }
+
+  .menu-header{
+    padding:5px;
+  }
+
+  .menu-header .inner-div{
+   width: 100%;
+   border-radius: 0;
+
+   
+  }
+  
+}
