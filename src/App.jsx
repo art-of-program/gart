@@ -9,7 +9,7 @@ import ResetPassword from "./Pages/ResetPassword/ResetPassword";
 import { useEffect } from "react";
 import { useSelectionDataMutation } from "./slice/mutation/authApi";
 import { setCarData } from "./slice/cardataSlice";
-// import CarRegistration from "./Pages/RegisterCar/CarRegistration";
+import CarRegistration from "./Pages/RegisterCar/CarRegistration";
 import Admin from "./Pages/Dashboard/Admin/Admin_Dashboard";
 
 function App() {
@@ -45,10 +45,10 @@ function App() {
           path: "/dashboard",
           element: <Dashboard />,
         },
-        // {
-        //   path: "/car-registration",
-        //   element: <CarRegistration />,
-        // },
+        {
+          path: "/car-registration",
+          element: <CarRegistration />,
+        },
       ],
     },
     {
